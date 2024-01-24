@@ -1,5 +1,5 @@
 - name : install and run nginx
-  hosts : 52.23.195.65
+  hosts : web_servers 
   become : yes
   tasks :
   - name : install nginx package
